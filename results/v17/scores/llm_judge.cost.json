@@ -1,0 +1,9 @@
+{
+  "ms_per_prompt": 523.1776197662703,
+  "latency_bs1_ms": 378.4553539881017,
+  "params": 8030000000.0,
+  "needs_forward_pass": true,
+  "hf_id": "meta-llama/Meta-Llama-3-8B-Instruct",
+  "n_scored": 3487,
+  "scoring": "softmax over [No, Yes] logits, 1st position"
+}

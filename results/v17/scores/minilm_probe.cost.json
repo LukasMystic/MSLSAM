@@ -1,0 +1,11 @@
+{
+  "ms_per_prompt": 8.837812521960586,
+  "latency_bs1_ms": 8.837812521960586,
+  "params": 22713216,
+  "needs_forward_pass": true,
+  "hf_id": "sentence-transformers/all-MiniLM-L6-v2",
+  "max_length": 512,
+  "note": "latency is the frozen encoder; head inference is < 1 ms",
+  "train_seconds_9_fits_lr": 1.432874665944837,
+  "train_seconds_9_fits_hgb": 32.99224966700422
+}

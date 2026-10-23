@@ -1,0 +1,5 @@
+{
+  "latency_bs1_ms": 0.7808125228621066,
+  "note": "8 PCA projections + scaler + LR, on the cached states; excludes the Llama forward pass (326.0 ms, v17)",
+  "features": 2048
+}

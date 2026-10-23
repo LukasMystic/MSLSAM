@@ -1,0 +1,8 @@
+{
+  "ms_per_prompt": 0.6422080041375011,
+  "latency_bs1_ms": 0.6422080041375011,
+  "params": 293438,
+  "needs_forward_pass": false,
+  "train_seconds_9_fits": 45.15837808401557,
+  "config": "word 1-2g + char_wb 3-5g TF-IDF, LR C=4 balanced, untuned"
+}

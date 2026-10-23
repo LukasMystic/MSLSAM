@@ -1,0 +1,169 @@
+{
+ "version": "v23d",
+ "run_at": "2026-10-19 10:16",
+ "convention": "2 FLOPs per multiply-add; matrix products only",
+ "llama": {
+  "coef_n": 13958643840.000004,
+  "coef_n2": 524288.0000000021,
+  "grid": [
+   64,
+   128,
+   256,
+   512,
+   768,
+   1024
+  ],
+  "counted": [
+   895500689408,
+   1795296346112,
+   3607772561408,
+   7284264599552,
+   11029476114432,
+   14843407106048
+  ],
+  "params_non_embedding": 6979588096,
+  "lm_head_per_token": 1050673152,
+  "prompt_tokens": [
+   372.0,
+   499.70000000000005
+  ],
+  "judge_tokens": [
+   406.0,
+   534.0
+  ]
+ },
+ "guards": {
+  "promptguard2_86m": {
+   "grid_len": [
+    16,
+    32,
+    64,
+    128,
+    192,
+    256,
+    320,
+    384,
+    448,
+    512
+   ],
+   "grid_flops": [
+    17526033408,
+    20574243840,
+    26727287808,
+    39259868160,
+    52094438400,
+    65230998528,
+    78669548544,
+    92410088448,
+    106452618240,
+    120797137920
+   ],
+   "params": 278810882,
+   "per_prompt_gflops": [
+    73.000160256,
+    106.233203712
+   ]
+  },
+  "protectai_deberta": {
+   "grid_len": [
+    16,
+    32,
+    64,
+    128,
+    192,
+    256,
+    320,
+    384,
+    448,
+    512
+   ],
+   "grid_flops": [
+    17526033408,
+    20574243840,
+    26727287808,
+    39259868160,
+    52094438400,
+    65230998528,
+    78669548544,
+    92410088448,
+    106452618240,
+    120797137920
+   ],
+   "params": 184423682,
+   "per_prompt_gflops": [
+    66.070907904,
+    88.974953472
+   ]
+  }
+ },
+ "heads_flops": {
+  "MSLSAM v20b (A0)": 16777216,
+  "v23 candidate MLR3": 16789504,
+  "v23 candidate MLP": 17826304,
+  "v23 candidate MLPTD": 22282752
+ },
+ "head_ms": 1.42843749927124,
+ "achieved_gflops_per_s": {
+  "promptguard2_86m": 491.2854660033334,
+  "protectai_deberta": 339.6833416032894,
+  "MSLSAM v20b (A0)": 11.745152314021016
+ },
+ "table": [
+  {
+   "component": "Llama-3-8B prefill (the app's own pass; shared)",
+   "GFLOPs median": 5265.168579072001,
+   "GFLOPs p90": 7106.049197734404,
+   "% of the prefill (median)": 100.0,
+   "achieved GFLOP/s": NaN
+  },
+  {
+   "component": "8B judge (a second prefill + 1 answer position)",
+   "GFLOPs median": 5754.6816089600015,
+   "GFLOPs p90": 7604.470352640003,
+   "% of the prefill (median)": 109.33499313233068,
+   "achieved GFLOP/s": NaN
+  },
+  {
+   "component": "Prompt Guard 2 (window-max)",
+   "GFLOPs median": 73.000160256,
+   "GFLOPs p90": 106.233203712,
+   "% of the prefill (median)": 1.350252094013902,
+   "achieved GFLOP/s": 491.2854660033334
+  },
+  {
+   "component": "ProtectAI v2 (window-max)",
+   "GFLOPs median": 66.070907904,
+   "GFLOPs p90": 88.974953472,
+   "% of the prefill (median)": 1.2306736906906466,
+   "achieved GFLOP/s": 339.6833416032894
+  },
+  {
+   "component": "MSLSAM v20b (A0)",
+   "GFLOPs median": 0.016777216,
+   "GFLOPs p90": 0.016777216,
+   "% of the prefill (median)": 0.00031864537190102706,
+   "achieved GFLOP/s": 11.745152314021016
+  },
+  {
+   "component": "v23 candidate MLR3",
+   "GFLOPs median": 0.016789504,
+   "GFLOPs p90": 0.016789504,
+   "% of the prefill (median)": 0.00031887875474177486,
+   "achieved GFLOP/s": NaN
+  },
+  {
+   "component": "v23 candidate MLP",
+   "GFLOPs median": 0.017826304,
+   "GFLOPs p90": 0.017826304,
+   "% of the prefill (median)": 0.0003385704319298724,
+   "achieved GFLOP/s": NaN
+  },
+  {
+   "component": "v23 candidate MLPTD",
+   "GFLOPs median": 0.022282752,
+   "GFLOPs p90": 0.022282752,
+   "% of the prefill (median)": 0.0004232106088410828,
+   "achieved GFLOP/s": NaN
+  }
+ ]
+}

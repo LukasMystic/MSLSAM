@@ -1,0 +1,16 @@
+feature,abs_coef,layer,group
+P_Override_L4,0.47289196690821483,4,Override
+P_Override_L8,0.4804500224707883,8,Override
+P_Override_L12,1.829226074574344,12,Override
+P_RoleHijack_L4,1.009228075882606,4,RoleHijack
+P_RoleHijack_L8,1.8203930453034296,8,RoleHijack
+P_RoleHijack_L12,0.23491030244286218,12,RoleHijack
+P_Authority_L4,1.6207287564733093,4,Authority
+P_Authority_L8,1.3991118670020286,8,Authority
+P_Authority_L12,0.08835296798076961,12,Authority
+P_ContextPoison_L4,0.5301213149749574,4,ContextPoison
+P_ContextPoison_L8,0.5253481357264589,8,ContextPoison
+P_ContextPoison_L12,2.605159101136796,12,ContextPoison
+P_RealInj_L4,0.9266300286173113,4,RealInj
+P_RealInj_L8,1.0408783723189905,8,RealInj
+P_RealInj_L12,0.5646161259571014,12,RealInj

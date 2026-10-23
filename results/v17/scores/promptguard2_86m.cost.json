@@ -1,0 +1,20 @@
+{
+  "ms_per_prompt": 30.828924547891656,
+  "latency_bs1_ms": 32.35572949051857,
+  "params": 278810882,
+  "needs_forward_pass": true,
+  "hf_id": "meta-llama/Llama-Prompt-Guard-2-86M",
+  "commit": "a8ded8e697ce7c355e395a0df51f94adb4a2fd27",
+  "accessed": "2026-09-28",
+  "archived_upstream": false,
+  "positive_class": 1,
+  "id2label": {
+    "0": "label_0",
+    "1": "label_1"
+  },
+  "probe_gap": 0.9665137529373169,
+  "positive_class_source": "probe only",
+  "tokenizer_loader": "AutoTokenizer",
+  "latency_timing": "warm (shape pre-compiled)",
+  "pad_to_multiple_of": 64
+}

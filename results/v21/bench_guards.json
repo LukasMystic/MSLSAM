@@ -1,0 +1,22 @@
+{
+ "version": "v21b2",
+ "run_at": "2026-10-18 22:43",
+ "device": "mps",
+ "torch": "2.5.1",
+ "B1_guard_median_ms": {
+  "t_promptguard2": 76.37179200003175,
+  "t_protectai": 64.59404149995862
+ },
+ "B1_guard_p90_ms": {
+  "t_promptguard2": 90.67855480001299,
+  "t_protectai": 76.17696309995381
+ },
+ "B2_pg2_loglog_slope": 0.883841722137027,
+ "memory": {
+  "before_guards": 0,
+  "promptguard2_86m_param_bytes": 1115243528,
+  "promptguard2_86m_device_bytes": 1115247872,
+  "protectai_deberta_param_bytes": 737694728,
+  "protectai_deberta_device_bytes": 766802688
+ }
+}

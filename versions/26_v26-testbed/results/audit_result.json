@@ -1,0 +1,24 @@
+{
+ "llama3.2-3b": {
+  "n": 50,
+  "disagreement_pct": 0.0,
+  "auto_yes_human_no": 0,
+  "auto_no_human_yes": 0
+ },
+ "qwen3-4b": {
+  "n": 50,
+  "disagreement_pct": 0.0,
+  "auto_yes_human_no": 0,
+  "auto_no_human_yes": 0
+ },
+ "_all": {
+  "n": 100,
+  "disagreement_pct": 0.0
+ },
+ "_rule": "stop if disagreement > 15% (pre-registered V2)",
+ "_pass": true,
+ "_models": [
+  "llama3.2-3b",
+  "qwen3-4b"
+ ]
+}

@@ -1,0 +1,7 @@
+{
+  "ms_per_prompt": 0.09608961387217317,
+  "latency_bs1_ms": 0.06816649693064392,
+  "params": 0,
+  "needs_forward_pass": false,
+  "n_patterns": 18
+}

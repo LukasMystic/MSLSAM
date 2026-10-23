@@ -1,0 +1,53 @@
+# Repository root = Experiments/. Code, notebooks, pre-registrations and results only. NO DATASETS.
+
+# ---- OS / editors / local tool settings
+.DS_Store
+.vscode/
+.claude/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# ---- secrets (use `hf auth login` or the HF_TOKEN environment variable; never paste a token)
+.env
+*.token
+
+# ---- datasets and anything derived from their text (must never reach GitHub)
+datasets/
+representation_cache/
+_tok/
+**/shards/
+taxonomy_annotation/*.csv
+**/deepset_injection_meta.csv
+results/v26/audit_blank_backup.csv
+
+# ---- data / model file types, wherever they appear (no Git LFS: these simply stay local)
+*.parquet
+*.arrow
+*.feather
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.pkl
+*.pickle
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.npy
+*.npz
+# ... except the small frozen detectors that later versions verify by SHA-256
+!artifacts/v26/
+!artifacts/v26/**/
+!artifacts/v26/**/*.npz
+
+# ---- large model artifacts
+artifacts/candidates/
+
+# ---- staging folders awaiting manual deletion
+**/_to_delete/

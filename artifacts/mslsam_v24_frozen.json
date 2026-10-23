@@ -1,0 +1,157 @@
+{
+ "version": "v24c",
+ "frozen_at": "2026-10-19 18:51",
+ "A2_adopted": false,
+ "T1": 5,
+ "T2": 0,
+ "ensemble_module": {
+  "path": "artifacts/mslsam_ensemble.py",
+  "sha256": "18510de805cc84b7244a20c767380a5cc6a474cba0d210dac28e2a850bee0e0c"
+ },
+ "A0": {
+  "0": {
+   "path": "artifacts/mslsam_v20b_s0.npz",
+   "sha256": "cacb1d02833e577937a00c93c861c9f011fe6d1a152ce60a1e4239b5ef2b5201"
+  },
+  "1": {
+   "path": "artifacts/mslsam_v20b_s1.npz",
+   "sha256": "0d5614a4aaeaac59209b6656fc84a703dc5f87c03f2bbb71fd44e5af8521a52b"
+  },
+  "2": {
+   "path": "artifacts/mslsam_v20b_s2.npz",
+   "sha256": "a175bac75b358c048ee5f52107f295839034062824b031ced43dafe5a8af2207"
+  },
+  "3": {
+   "path": "artifacts/mslsam_v20b_s3.npz",
+   "sha256": "cf19b9f5abf1ca0c7a26415ae6f77875c771f07e080b31e1de2e47718a17ead2"
+  },
+  "4": {
+   "path": "artifacts/mslsam_v20b_s4.npz",
+   "sha256": "f5c4bc33c72e5e607c71c227ada95e26fea7a7d81f5d70d0f272f28fa37db67d"
+  }
+ },
+ "A2": {
+  "0": {
+   "path": "artifacts/candidates/mslsam_v24A2_s0.npz",
+   "sha256": "7d30abd99d620c725311f0d31dc6e4fd37acf640276824a7dbbe723741dbb561"
+  },
+  "1": {
+   "path": "artifacts/candidates/mslsam_v24A2_s1.npz",
+   "sha256": "41c08a856d217280e36971e502b0faceb36b5449cd7256cf5728225e125d44e8"
+  },
+  "2": {
+   "path": "artifacts/candidates/mslsam_v24A2_s2.npz",
+   "sha256": "6db1a413d521eacf6c1662bc7208fe772f1a612786ce96f5ba921ce985b25422"
+  },
+  "3": {
+   "path": "artifacts/candidates/mslsam_v24A2_s3.npz",
+   "sha256": "bbd1af4d2598f3f1a1903fceef0953e2ba4bff0ae8b3d01f3bda0adda04c891c"
+  },
+  "4": {
+   "path": "artifacts/candidates/mslsam_v24A2_s4.npz",
+   "sha256": "ac9ff6bb4ffea9a5a5fc8f0d8e6026e4254dc6790f1379b0d879dd6ef5b18cb5"
+  }
+ },
+ "ENS0_ref": {
+  "0": {
+   "mu_m": -4.109277768219356,
+   "sd_m": 1.9374527712602652,
+   "mu_g": -6.678356523936224,
+   "sd_g": 1.3744087147929618
+  },
+  "1": {
+   "mu_m": -4.108599495538622,
+   "sd_m": 1.936789630824137,
+   "mu_g": -6.678356523936224,
+   "sd_g": 1.3744087147929618
+  },
+  "2": {
+   "mu_m": -4.108696568626383,
+   "sd_m": 1.9322383134310117,
+   "mu_g": -6.678356523936224,
+   "sd_g": 1.3744087147929618
+  },
+  "3": {
+   "mu_m": -4.105865275296778,
+   "sd_m": 1.9398313053450806,
+   "mu_g": -6.678356523936224,
+   "sd_g": 1.3744087147929618
+  },
+  "4": {
+   "mu_m": -4.107799847931147,
+   "sd_m": 1.9302200297594072,
+   "mu_g": -6.678356523936224,
+   "sd_g": 1.3744087147929618
+  }
+ },
+ "ENS2_ref": {
+  "0": {
+   "mu_m": -4.142483472574918,
+   "sd_m": 2.0517462776020516,
+   "mu_g": -6.645916775098191,
+   "sd_g": 1.301808342418993
+  },
+  "1": {
+   "mu_m": -4.140970902185383,
+   "sd_m": 2.0490436472766995,
+   "mu_g": -6.645916775098191,
+   "sd_g": 1.301808342418993
+  },
+  "2": {
+   "mu_m": -4.137415076371512,
+   "sd_m": 2.048362216536722,
+   "mu_g": -6.645916775098191,
+   "sd_g": 1.301808342418993
+  },
+  "3": {
+   "mu_m": -4.1442921636992045,
+   "sd_m": 2.0459836426241904,
+   "mu_g": -6.645916775098191,
+   "sd_g": 1.301808342418993
+  },
+  "4": {
+   "mu_m": -4.131592194938029,
+   "sd_m": 2.044064825831143,
+   "mu_g": -6.645916775098191,
+   "sd_g": 1.301808342418993
+  }
+ },
+ "ENS0_sources": {
+  "mslsam": {
+   "path": "artifacts/mslsam_v20b_ref.json",
+   "sha256": "3919a8d964f86360181dc3ce5f65b3234b5089c14ac329f8ab0f0423bc8f4250"
+  },
+  "pg2": {
+   "path": "results/v21/scores/promptguard2_86m__ref.npy",
+   "sha256": "6e6c6aa43db2246f3ebe54242800a85d7ea6382075a2e331663989b450dd8bbf"
+  }
+ },
+ "ENS2_sources": {
+  "oof": {
+   "0": {
+    "path": "results/v24/scores/oof_A2_s0.npy",
+    "sha256": "1ba0b315499128285974194103b92bda2c7a2839532b9a92fbc5cbf9b171d210"
+   },
+   "1": {
+    "path": "results/v24/scores/oof_A2_s1.npy",
+    "sha256": "2ca10c771524391dd9809e39e51f4982fc6349d51a10438b3467c8dfbd15ffd7"
+   },
+   "2": {
+    "path": "results/v24/scores/oof_A2_s2.npy",
+    "sha256": "beedb0350951f5975fcf02b8807e3dc701c7d11477ce1151de7d48df7df834de"
+   },
+   "3": {
+    "path": "results/v24/scores/oof_A2_s3.npy",
+    "sha256": "91047e9a1b4c095870b86b86b37030fff5f5a0bb8235773b0863a21fb6ffad92"
+   },
+   "4": {
+    "path": "results/v24/scores/oof_A2_s4.npy",
+    "sha256": "018fbfdc9d6791355059e61eaa108ef10c92ecbb4b962fe6b8eccb631ba94f11"
+   }
+  },
+  "pg2_ttrain": {
+   "path": "results/v24/scores/promptguard2_86m__ttrain.npy",
+   "sha256": "d8726144028493f66f40bfab1ecd9e4058c1e8084c446b532f60565ec10df6e2"
+  }
+ }
+}

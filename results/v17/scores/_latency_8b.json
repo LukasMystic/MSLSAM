@@ -1,0 +1,7 @@
+{
+  "judge": 378.4553539881017,
+  "mslsam_forward": 325.97425000858493,
+  "n": 30,
+  "device": "mps",
+  "note": "median, batch size 1, same loaded model"
+}

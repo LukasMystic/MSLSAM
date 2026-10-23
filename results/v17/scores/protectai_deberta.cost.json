@@ -1,0 +1,20 @@
+{
+  "ms_per_prompt": 31.458614884395143,
+  "latency_bs1_ms": 31.651520519517362,
+  "params": 184423682,
+  "needs_forward_pass": true,
+  "hf_id": "protectai/deberta-v3-base-prompt-injection-v2",
+  "commit": "90c9989b1a342275dd0d1a95aad283c04e075671",
+  "accessed": "2026-09-28",
+  "archived_upstream": true,
+  "positive_class": 1,
+  "id2label": {
+    "0": "safe",
+    "1": "injection"
+  },
+  "probe_gap": 0.9999943971633911,
+  "positive_class_source": "label name + probe agree",
+  "tokenizer_loader": "AutoTokenizer",
+  "latency_timing": "warm (shape pre-compiled)",
+  "pad_to_multiple_of": 64
+}

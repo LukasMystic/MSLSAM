@@ -1,0 +1,14 @@
+{
+  "n_sample": 50,
+  "seed": 42,
+  "has_stage1_scores": false,
+  "has_cj_verdicts": false,
+  "prelim_distribution": {
+    "A": 23,
+    "H": 8,
+    "B": 3,
+    "N": 16
+  },
+  "german_count": 15,
+  "n_borderline_cj": 0
+}
